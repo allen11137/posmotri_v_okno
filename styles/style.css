@@ -101,7 +101,7 @@ ol {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .content__video-card-thumbnail {
@@ -314,7 +314,6 @@ ol {
   outline: 1px solid rgba(255, 255, 255, 1);
   outline-offset: 1px;
 }
-
 
 .content__video-card-description-container:hover {
   text-decoration: underline;
