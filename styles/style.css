@@ -47,6 +47,7 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .content {
@@ -54,6 +55,9 @@ ol {
   flex-direction: row;
   align-items: end;
   justify-content: center;
+  width: 1140px;
+  height: 534px;
+  gap: 30px;
 }
 
 .search-form {
@@ -75,14 +79,13 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  max-height: 534px;
-  max-width: 399px;
+  height: 534px;
+  width: 399px;
 }
 
 .result__video-container {
-  max-width: 711px;
-  max-height: 386px;
-  padding-right: 30px;
+  width: 711px;
+  height: 386px;
   padding-bottom: 16px;
 }
 
