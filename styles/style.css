@@ -81,6 +81,7 @@ ol {
   flex-direction: column;
   height: 534px;
   width: 399px;
+  padding-top: 26px;
 }
 
 .result__video-container {
