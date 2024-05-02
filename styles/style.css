@@ -76,6 +76,7 @@ ol {
   flex-direction: column;
   block-size: 100%;
   inline-size: 399px;
+  overflow: hidden;
 }
 
 .result__video-container {
@@ -87,8 +88,8 @@ ol {
 .result__video {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
   object-position: center;
+  object-fit: cover;
 }
 
 .content__list-item:not(:last-child) {
