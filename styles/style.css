@@ -292,7 +292,8 @@ ol {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.search-form__label:has(.search-form__label-text):hover {  /*заработало только так */
+.search-form__label:has(.search-form__label-text):hover {
+  /*заработало только так */
   text-decoration: underline;
 }
 
