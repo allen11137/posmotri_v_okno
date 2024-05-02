@@ -292,8 +292,8 @@ ol {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.search-form__label:has(.search-form__label-text):hover {
-  /*заработало только так */
+.search-form__label:has(.search-form__pseudo-checkbox):hover {
+  /*заработало только так, поскольку search-form__label-text относится и к первому search-form__fieldset*/
   text-decoration: underline;
 }
 
