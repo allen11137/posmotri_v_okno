@@ -65,7 +65,6 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   overflow: auto;
   position: relative;
   inline-size: 100%;
@@ -76,7 +75,7 @@ ol {
   display: flex;
   flex-direction: column;
   block-size: 100%;
-  inline-size: inherit;
+  inline-size: 399px;
 }
 
 .result__video-container {
@@ -104,10 +103,11 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  inline-size: 197px;
-  block-size: 107px;
+  inline-size: 194px;
+  block-size: 103px;
   object-fit: cover;
   object-position: center;
+  padding: 2px 2px 2px 0px;
 }
 
 .content__video-card-description-container {
@@ -223,12 +223,17 @@ ol {
   inline-size: 194px;
   block-size: 34px;
   border: 1px solid rgba(255, 255, 255, 1);
-  padding-block-end: 5px;
 }
 
 .more-button {
   inline-size: 399px;
   block-size: 34px;
+  margin-block-end: 2px;
+  margin-inline-start: 2px;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .button:focus-visible {
@@ -288,7 +293,7 @@ ol {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.search-form__label-text:hover + .search-form__label-text::after {
+.search-form__label-text:hover .search-form__label-text {
   text-decoration: underline;
 }
 
