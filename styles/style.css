@@ -76,7 +76,6 @@ ol {
   flex-direction: column;
   block-size: 100%;
   inline-size: 399px;
-  overflow: hidden;
 }
 
 .result__video-container {
@@ -154,7 +153,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-inline-size: 200px;
+  max-inline-size: 180px;
 }
 
 .content__video-card-description {
@@ -230,7 +229,6 @@ ol {
   inline-size: 399px;
   block-size: 34px;
   margin-block-end: 2px;
-  margin-inline-start: 2px;
 }
 
 .button:focus {
@@ -294,7 +292,7 @@ ol {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.search-form__label-text:hover .search-form__label-text {
+.search-form__label:has(.search-form__label-text):hover {  /*заработало только так */
   text-decoration: underline;
 }
 
