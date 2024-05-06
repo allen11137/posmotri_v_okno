@@ -69,6 +69,8 @@ ol {
   position: relative;
   inline-size: 100%;
   block-size: 298px;
+  scrollbar-color: #1b1919 #1b1919;
+  scrollbar-width: thin;
 }
 
 .content__details {
@@ -226,9 +228,9 @@ ol {
 }
 
 .more-button {
-  inline-size: 399px;
+  inline-size: 100%;
   block-size: 34px;
-  margin-block-end: 2px;
+  margin-block-end: 1px;
 }
 
 .button:focus {
